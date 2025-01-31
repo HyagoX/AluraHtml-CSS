@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor-primaria: #22D4FD;
+    --cor-secundaria: #000000;
+    --cor-terciaria: #FFFFFF;
+    --hover-primario: #51a3b6;
+    --hover-secundario: #272727;
+
+    --fonte-principal: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-terciaria);
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+
+}
+
+.cabecalho__menu__link{
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-primaria);
+    text-decoration: none;
+
+}
+
+.cabecalho__menu__link:hover{
+    color: var(--hover-primario);
+
+}
+
+
+.titulo-destaque{
+    color: var(--cor-primaria);
+
+}
+
+.titulo-destaque:hover{
+    color: var(-azul-hover);
+
+}
+
+.apresentacao{
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.apresentacao__conteudo__titulo{
+    font-family: var(--fonte-principal);
+    font-size: 36px;
+
+}
+
+
+
+.apresentacao__conteudo__texto{
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    font-size: 24px;
+
+}
+
+.apresentacao__link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    justify-content: space-between;
+
+}
+
+.apresentacao__link__subtitulo{
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.apresentacao__link__botao{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    font-family: var(--fonte-secundaria);
+    font-weight: 600;
+    border: 2px solid var(--cor-primaria);
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--cor-terciaria);
+}
+
+.apresentacao__link__botao:hover{
+    background-color: var(--hover-secundario);
+
+}
+
+.rodape{
+    padding: 24px;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 400;
+
+}
